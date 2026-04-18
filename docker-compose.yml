@@ -22,6 +22,10 @@ services:
       APP_NAME: ${APP_NAME:-Tabylga API}
       APP_TIMEZONE: ${APP_TIMEZONE:-Asia/Bishkek}
       CHECK_IN_RADIUS_METERS: ${CHECK_IN_RADIUS_METERS:-250}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-*}
+      AUTO_INIT_DB: ${AUTO_INIT_DB:-true}
+      ENABLE_DB_SEED: ${ENABLE_DB_SEED:-true}
+      CREATE_POSTGIS_EXTENSION: ${CREATE_POSTGIS_EXTENSION:-true}
       DATABASE_URL: ${DATABASE_URL:-postgresql://tabylga:tabylga@db:5432/tabylga}
       OPEN_ROUTE_SERVICE_API_KEY: ${OPEN_ROUTE_SERVICE_API_KEY:-}
       ORS_BASE_URL: ${ORS_BASE_URL:-https://api.openrouteservice.org/v2}

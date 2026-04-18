@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "main.py": {
+      "excludeFiles": "{Tabylga/**,garbage/**,backend/**/__pycache__/**,.git/**,.venv/**}"
+    }
+  }
+}

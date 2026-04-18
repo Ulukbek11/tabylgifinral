@@ -1,9 +1,17 @@
 import os
 import time
+from threading import Lock
 from typing import Generator
 
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
+
+from .config import (
+    CREATE_POSTGIS_EXTENSION,
+    DB_CONNECT_RETRIES,
+    DB_CONNECT_RETRY_DELAY_SECONDS,
+    ENABLE_DB_SEED,
+)
 
 
 DATABASE_URL = os.getenv(
@@ -31,6 +39,10 @@ class Base(DeclarativeBase):
     pass
 
 
+_database_init_lock = Lock()
+_database_initialized = False
+
+
 def get_db() -> Generator[Session, None, None]:
     db = SessionLocal()
     try:
@@ -39,7 +51,10 @@ def get_db() -> Generator[Session, None, None]:
         db.close()
 
 
-def wait_for_database(max_attempts: int = 20, delay_seconds: float = 2.0) -> None:
+def wait_for_database(
+    max_attempts: int = DB_CONNECT_RETRIES,
+    delay_seconds: float = DB_CONNECT_RETRY_DELAY_SECONDS,
+) -> None:
     last_error: Exception | None = None
     for _ in range(max_attempts):
         try:
@@ -55,16 +70,29 @@ def wait_for_database(max_attempts: int = 20, delay_seconds: float = 2.0) -> Non
 
 
 def initialize_database() -> None:
-    wait_for_database()
+    global _database_initialized
 
-    from . import models  # noqa: F401
+    if _database_initialized:
+        return
 
-    with engine.begin() as connection:
-        connection.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
+    with _database_init_lock:
+        if _database_initialized:
+            return
 
-    Base.metadata.create_all(bind=engine)
+        wait_for_database()
 
-    from .seed import seed_database
+        from . import models  # noqa: F401
 
-    with SessionLocal() as session:
-        seed_database(session)
+        if CREATE_POSTGIS_EXTENSION:
+            with engine.begin() as connection:
+                connection.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
+
+        Base.metadata.create_all(bind=engine)
+
+        if ENABLE_DB_SEED:
+            from .seed import seed_database
+
+            with SessionLocal() as session:
+                seed_database(session)
+
+        _database_initialized = True
