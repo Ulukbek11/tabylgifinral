@@ -20,7 +20,7 @@ Vercel can host the FastAPI app, but the database must be an external PostgreSQL
 
 The repo is configured for Vercel with:
 
-- root entrypoint: [main.py](/Users/ulukbekasanbekov/projects/hackaton/final/main.py:1)
+- root entrypoint: [index.py](/Users/ulukbekasanbekov/projects/hackaton/final/index.py:1)
 - root Python dependencies: [requirements.txt](/Users/ulukbekasanbekov/projects/hackaton/final/requirements.txt:1)
 - Python version pin: [.python-version](/Users/ulukbekasanbekov/projects/hackaton/final/.python-version:1)
 - Vercel function config: [vercel.json](/Users/ulukbekasanbekov/projects/hackaton/final/vercel.json:1)
