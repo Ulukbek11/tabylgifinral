@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F90F7012F93A81500A9AB06 /* TabylgaNomadsPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8012F93A81500A9AB06 /* TabylgaNomadsPathApp.swift */; };
+		8F90F7022F93A81500A9AB06 /* LocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8022F93A81500A9AB06 /* LocationPoint.swift */; };
+		8F90F7032F93A81500A9AB06 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8032F93A81500A9AB06 /* MockData.swift */; };
+		8F90F7042F93A81500A9AB06 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8042F93A81500A9AB06 /* Achievement.swift */; };
+		8F90F7052F93A81500A9AB06 /* NomadicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8052F93A81500A9AB06 /* NomadicCalendar.swift */; };
+		8F90F7062F93A81500A9AB06 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8062F93A81500A9AB06 /* Theme.swift */; };
+		8F90F7072F93A81500A9AB06 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8072F93A81500A9AB06 /* Route.swift */; };
+		8F90F7082F93A81500A9AB06 /* GlassmorphismModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8082F93A81500A9AB06 /* GlassmorphismModifier.swift */; };
+		8F90F7092F93A81500A9AB06 /* BackgroundModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8092F93A81500A9AB06 /* BackgroundModifiers.swift */; };
+		8F90F70A2F93A81500A9AB06 /* NeonGlowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80A2F93A81500A9AB06 /* NeonGlowModifier.swift */; };
+		8F90F70B2F93A81500A9AB06 /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80B2F93A81500A9AB06 /* RouteViewModel.swift */; };
+		8F90F70C2F93A81500A9AB06 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80C2F93A81500A9AB06 /* AppViewModel.swift */; };
+		8F90F70D2F93A81500A9AB06 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80D2F93A81500A9AB06 /* MapViewModel.swift */; };
+		8F90F70E2F93A81500A9AB06 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80E2F93A81500A9AB06 /* ProfileViewModel.swift */; };
+		8F90F70F2F93A81500A9AB06 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F80F2F93A81500A9AB06 /* MainTabView.swift */; };
+		8F90F7102F93A81500A9AB06 /* CheckInBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8102F93A81500A9AB06 /* CheckInBottomSheetView.swift */; };
+		8F90F7112F93A81500A9AB06 /* ProfileGamificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8112F93A81500A9AB06 /* ProfileGamificationView.swift */; };
+		8F90F7122F93A81500A9AB06 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8122F93A81500A9AB06 /* SplashView.swift */; };
+		8F90F7132F93A81500A9AB06 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8132F93A81500A9AB06 /* HomeFeedView.swift */; };
+		8F90F7142F93A81500A9AB06 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8142F93A81500A9AB06 /* Localization.swift */; };
+		8F90F7202F93A81500A9AB06 /* InitialSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8202F93A81500A9AB06 /* InitialSetupView.swift */; };
+		8F90F7152F93A81500A9AB06 /* MapNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8152F93A81500A9AB06 /* MapNavigationView.swift */; };
+		8F90F7162F93A81500A9AB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F90F8162F93A81500A9AB06 /* Assets.xcassets */; };
+		8F90F7172F93A81500A9AB06 /* TabylgaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8172F93A81500A9AB06 /* TabylgaTests.swift */; };
+		8F90F7182F93A81500A9AB06 /* TabylgaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8182F93A81500A9AB06 /* TabylgaUITests.swift */; };
+		8F90F7192F93A81500A9AB06 /* TabylgaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F90F8192F93A81500A9AB06 /* TabylgaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F90F3B32F93A81700A9AB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F90F39D2F93A81500A9AB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F90F3A42F93A81500A9AB06;
+			remoteInfo = Tabylga;
+		};
+		8F90F3BD2F93A81800A9AB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F90F39D2F93A81500A9AB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F90F3A42F93A81500A9AB06;
+			remoteInfo = Tabylga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F90F3A52F93A81500A9AB06 /* Tabylga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabylga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90F3B22F93A81700A9AB06 /* TabylgaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabylgaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90F3BC2F93A81800A9AB06 /* TabylgaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabylgaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90F8012F93A81500A9AB06 /* TabylgaNomadsPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabylgaNomadsPathApp.swift; sourceTree = "<group>"; };
+		8F90F8022F93A81500A9AB06 /* LocationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPoint.swift; sourceTree = "<group>"; };
+		8F90F8032F93A81500A9AB06 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		8F90F8042F93A81500A9AB06 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		8F90F8052F93A81500A9AB06 /* NomadicCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomadicCalendar.swift; sourceTree = "<group>"; };
+		8F90F8062F93A81500A9AB06 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8F90F8072F93A81500A9AB06 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		8F90F8082F93A81500A9AB06 /* GlassmorphismModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismModifier.swift; sourceTree = "<group>"; };
+		8F90F8092F93A81500A9AB06 /* BackgroundModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifiers.swift; sourceTree = "<group>"; };
+		8F90F80A2F93A81500A9AB06 /* NeonGlowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonGlowModifier.swift; sourceTree = "<group>"; };
+		8F90F80B2F93A81500A9AB06 /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		8F90F80C2F93A81500A9AB06 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		8F90F80D2F93A81500A9AB06 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		8F90F80E2F93A81500A9AB06 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		8F90F80F2F93A81500A9AB06 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		8F90F8102F93A81500A9AB06 /* CheckInBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInBottomSheetView.swift; sourceTree = "<group>"; };
+		8F90F8112F93A81500A9AB06 /* ProfileGamificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGamificationView.swift; sourceTree = "<group>"; };
+		8F90F8122F93A81500A9AB06 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8F90F8132F93A81500A9AB06 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		8F90F8142F93A81500A9AB06 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		8F90F8202F93A81500A9AB06 /* InitialSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSetupView.swift; sourceTree = "<group>"; };
+		8F90F8152F93A81500A9AB06 /* MapNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigationView.swift; sourceTree = "<group>"; };
+		8F90F8162F93A81500A9AB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F90F8172F93A81500A9AB06 /* TabylgaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabylgaTests.swift; sourceTree = "<group>"; };
+		8F90F8182F93A81500A9AB06 /* TabylgaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabylgaUITests.swift; sourceTree = "<group>"; };
+		8F90F8192F93A81500A9AB06 /* TabylgaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabylgaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F90F3A22F93A81500A9AB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3AF2F93A81700A9AB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3B92F93A81800A9AB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F90F39C2F93A81500A9AB06 = {
+			isa = PBXGroup;
+			children = (
+				8F90F3A72F93A81500A9AB06 /* Tabylga */,
+				8F90F3B52F93A81700A9AB06 /* TabylgaTests */,
+				8F90F3BF2F93A81800A9AB06 /* TabylgaUITests */,
+				8F90F3A62F93A81500A9AB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F90F3A62F93A81500A9AB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F3A52F93A81500A9AB06 /* Tabylga.app */,
+				8F90F3B22F93A81700A9AB06 /* TabylgaTests.xctest */,
+				8F90F3BC2F93A81800A9AB06 /* TabylgaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F90F3A72F93A81500A9AB06 /* Tabylga */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F9012F93A81500A9AB06 /* App */,
+				8F90F9022F93A81500A9AB06 /* Models */,
+				8F90F9032F93A81500A9AB06 /* Modifiers */,
+				8F90F9042F93A81500A9AB06 /* ViewModels */,
+				8F90F9052F93A81500A9AB06 /* Views */,
+				8F90F8162F93A81500A9AB06 /* Assets.xcassets */,
+			);
+			path = Tabylga;
+			sourceTree = "<group>";
+		};
+		8F90F9012F93A81500A9AB06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8012F93A81500A9AB06 /* TabylgaNomadsPathApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8F90F9022F93A81500A9AB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8042F93A81500A9AB06 /* Achievement.swift */,
+				8F90F8022F93A81500A9AB06 /* LocationPoint.swift */,
+				8F90F8142F93A81500A9AB06 /* Localization.swift */,
+				8F90F8032F93A81500A9AB06 /* MockData.swift */,
+				8F90F8052F93A81500A9AB06 /* NomadicCalendar.swift */,
+				8F90F8072F93A81500A9AB06 /* Route.swift */,
+				8F90F8062F93A81500A9AB06 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F90F9032F93A81500A9AB06 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8092F93A81500A9AB06 /* BackgroundModifiers.swift */,
+				8F90F8082F93A81500A9AB06 /* GlassmorphismModifier.swift */,
+				8F90F80A2F93A81500A9AB06 /* NeonGlowModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		8F90F9042F93A81500A9AB06 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F80C2F93A81500A9AB06 /* AppViewModel.swift */,
+				8F90F80D2F93A81500A9AB06 /* MapViewModel.swift */,
+				8F90F80E2F93A81500A9AB06 /* ProfileViewModel.swift */,
+				8F90F80B2F93A81500A9AB06 /* RouteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8F90F9052F93A81500A9AB06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8102F93A81500A9AB06 /* CheckInBottomSheetView.swift */,
+				8F90F8132F93A81500A9AB06 /* HomeFeedView.swift */,
+				8F90F8202F93A81500A9AB06 /* InitialSetupView.swift */,
+				8F90F80F2F93A81500A9AB06 /* MainTabView.swift */,
+				8F90F8152F93A81500A9AB06 /* MapNavigationView.swift */,
+				8F90F8112F93A81500A9AB06 /* ProfileGamificationView.swift */,
+				8F90F8122F93A81500A9AB06 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F90F3B52F93A81700A9AB06 /* TabylgaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8172F93A81500A9AB06 /* TabylgaTests.swift */,
+			);
+			path = TabylgaTests;
+			sourceTree = "<group>";
+		};
+		8F90F3BF2F93A81800A9AB06 /* TabylgaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F90F8182F93A81500A9AB06 /* TabylgaUITests.swift */,
+				8F90F8192F93A81500A9AB06 /* TabylgaUITestsLaunchTests.swift */,
+			);
+			path = TabylgaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F90F3A42F93A81500A9AB06 /* Tabylga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90F3C62F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "Tabylga" */;
+			buildPhases = (
+				8F90F3A12F93A81500A9AB06 /* Sources */,
+				8F90F3A22F93A81500A9AB06 /* Frameworks */,
+				8F90F3A32F93A81500A9AB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabylga;
+			packageProductDependencies = (
+			);
+			productName = Tabylga;
+			productReference = 8F90F3A52F93A81500A9AB06 /* Tabylga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F90F3B12F93A81700A9AB06 /* TabylgaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90F3C92F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "TabylgaTests" */;
+			buildPhases = (
+				8F90F3AE2F93A81700A9AB06 /* Sources */,
+				8F90F3AF2F93A81700A9AB06 /* Frameworks */,
+				8F90F3B02F93A81700A9AB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F90F3B42F93A81700A9AB06 /* PBXTargetDependency */,
+			);
+			name = TabylgaTests;
+			packageProductDependencies = (
+			);
+			productName = TabylgaTests;
+			productReference = 8F90F3B22F93A81700A9AB06 /* TabylgaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F90F3BB2F93A81800A9AB06 /* TabylgaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F90F3CC2F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "TabylgaUITests" */;
+			buildPhases = (
+				8F90F3B82F93A81800A9AB06 /* Sources */,
+				8F90F3B92F93A81800A9AB06 /* Frameworks */,
+				8F90F3BA2F93A81800A9AB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F90F3BE2F93A81800A9AB06 /* PBXTargetDependency */,
+			);
+			name = TabylgaUITests;
+			packageProductDependencies = (
+			);
+			productName = TabylgaUITests;
+			productReference = 8F90F3BC2F93A81800A9AB06 /* TabylgaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F90F39D2F93A81500A9AB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					8F90F3A42F93A81500A9AB06 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					8F90F3B12F93A81700A9AB06 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 8F90F3A42F93A81500A9AB06;
+					};
+					8F90F3BB2F93A81800A9AB06 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 8F90F3A42F93A81500A9AB06;
+					};
+				};
+			};
+			buildConfigurationList = 8F90F3A02F93A81500A9AB06 /* Build configuration list for PBXProject "Tabylga" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F90F39C2F93A81500A9AB06;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8F90F3A62F93A81500A9AB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F90F3A42F93A81500A9AB06 /* Tabylga */,
+				8F90F3B12F93A81700A9AB06 /* TabylgaTests */,
+				8F90F3BB2F93A81800A9AB06 /* TabylgaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F90F3A32F93A81500A9AB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90F7162F93A81500A9AB06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3B02F93A81700A9AB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3BA2F93A81800A9AB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F90F3A12F93A81500A9AB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90F7012F93A81500A9AB06 /* TabylgaNomadsPathApp.swift in Sources */,
+				8F90F7022F93A81500A9AB06 /* LocationPoint.swift in Sources */,
+				8F90F7032F93A81500A9AB06 /* MockData.swift in Sources */,
+				8F90F7042F93A81500A9AB06 /* Achievement.swift in Sources */,
+				8F90F7052F93A81500A9AB06 /* NomadicCalendar.swift in Sources */,
+				8F90F7062F93A81500A9AB06 /* Theme.swift in Sources */,
+				8F90F7072F93A81500A9AB06 /* Route.swift in Sources */,
+				8F90F7082F93A81500A9AB06 /* GlassmorphismModifier.swift in Sources */,
+				8F90F7092F93A81500A9AB06 /* BackgroundModifiers.swift in Sources */,
+				8F90F70A2F93A81500A9AB06 /* NeonGlowModifier.swift in Sources */,
+				8F90F70B2F93A81500A9AB06 /* RouteViewModel.swift in Sources */,
+				8F90F70C2F93A81500A9AB06 /* AppViewModel.swift in Sources */,
+				8F90F70D2F93A81500A9AB06 /* MapViewModel.swift in Sources */,
+				8F90F70E2F93A81500A9AB06 /* ProfileViewModel.swift in Sources */,
+				8F90F70F2F93A81500A9AB06 /* MainTabView.swift in Sources */,
+				8F90F7102F93A81500A9AB06 /* CheckInBottomSheetView.swift in Sources */,
+				8F90F7112F93A81500A9AB06 /* ProfileGamificationView.swift in Sources */,
+				8F90F7122F93A81500A9AB06 /* SplashView.swift in Sources */,
+				8F90F7132F93A81500A9AB06 /* HomeFeedView.swift in Sources */,
+				8F90F7142F93A81500A9AB06 /* Localization.swift in Sources */,
+				8F90F7202F93A81500A9AB06 /* InitialSetupView.swift in Sources */,
+				8F90F7152F93A81500A9AB06 /* MapNavigationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3AE2F93A81700A9AB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90F7172F93A81500A9AB06 /* TabylgaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F90F3B82F93A81800A9AB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F90F7182F93A81500A9AB06 /* TabylgaUITests.swift in Sources */,
+				8F90F7192F93A81500A9AB06 /* TabylgaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F90F3B42F93A81700A9AB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F90F3A42F93A81500A9AB06 /* Tabylga */;
+			targetProxy = 8F90F3B32F93A81700A9AB06 /* PBXContainerItemProxy */;
+		};
+		8F90F3BE2F93A81800A9AB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F90F3A42F93A81500A9AB06 /* Tabylga */;
+			targetProxy = 8F90F3BD2F93A81800A9AB06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F90F3C42F93A81800A9AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F90F3C52F93A81800A9AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F90F3C72F93A81800A9AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.Tabylga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F90F3C82F93A81800A9AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.Tabylga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F90F3CA2F93A81800A9AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.TabylgaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabylga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tabylga";
+			};
+			name = Debug;
+		};
+		8F90F3CB2F93A81800A9AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.TabylgaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabylga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tabylga";
+			};
+			name = Release;
+		};
+		8F90F3CD2F93A81800A9AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.TabylgaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabylga;
+			};
+			name = Debug;
+		};
+		8F90F3CE2F93A81800A9AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DNC7L5K9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayaz.TabylgaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabylga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F90F3A02F93A81500A9AB06 /* Build configuration list for PBXProject "Tabylga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90F3C42F93A81800A9AB06 /* Debug */,
+				8F90F3C52F93A81800A9AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90F3C62F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "Tabylga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90F3C72F93A81800A9AB06 /* Debug */,
+				8F90F3C82F93A81800A9AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90F3C92F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "TabylgaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90F3CA2F93A81800A9AB06 /* Debug */,
+				8F90F3CB2F93A81800A9AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F90F3CC2F93A81800A9AB06 /* Build configuration list for PBXNativeTarget "TabylgaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F90F3CD2F93A81800A9AB06 /* Debug */,
+				8F90F3CE2F93A81800A9AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F90F39D2F93A81500A9AB06 /* Project object */;
+}
