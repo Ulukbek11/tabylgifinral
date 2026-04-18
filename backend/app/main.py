@@ -11,7 +11,10 @@ from .routers import calendar, localization, locations, profile, routes
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     if AUTO_INIT_DB:
-        initialize_database()
+        try:
+            initialize_database()
+        except Exception as e:
+            print(f"WARNING: Database initialization failed: {e}")
     yield
 
 
