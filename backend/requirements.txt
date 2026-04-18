@@ -1,0 +1,9 @@
+fastapi
+geoalchemy2
+httpx
+psycopg2-binary
+pydantic
+python-dotenv
+shapely
+sqlalchemy
+uvicorn[standard]
